@@ -280,16 +280,4 @@ public class BoardDAO extends JDBConnect {
 		return bbs;
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }

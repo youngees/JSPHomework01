@@ -141,14 +141,14 @@ else {
                 </div>
             </div>
            	<!-- 페이징 처리 -->
-            <table width="90%">
-			<tr align="center">
-				<td>
-					<%= BoardPage.pagingStr(totalCount, pageSize, blockPage, 
-							pageNum, request.getRequestURI()) %>
-				</td>
-			</tr>
-			</table>
+           <div class="row mt-3">
+                <div class="col">
+                    <ul class="pagination justify-content-center">
+                        <%= BoardPage.pagingStr(totalCount, pageSize,
+                       		blockPage, pageNum, request.getRequestURI()) %>  
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Copyright영역 -->

@@ -99,7 +99,7 @@
                     <div id="item05" style="display:none;">
                         <input type="text" name="email1" style="width:100px;"> @
                         <input type="text" name="email2" style="width:100px;">
-                        <select name="" id="">
+                        <select name="email_domain" id="">
                             <option value="">-- 선택 --</option>
                             <option value="naver.com">naver.com</option>
                             <option value="nate.com">nate.com</option>
